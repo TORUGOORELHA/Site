@@ -13,8 +13,8 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background: linear-gradient(to bottom, #3a25f1, #7bb4fe);
-    color: white;
+    background: linear-gradient(to bottom, #3a25f1, #7beafe);
+    color: rgb(0, 0, 0);
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -33,6 +33,12 @@ header input{
 header .barradecima h1 {
     margin-left: 2px;
 }
+header #login{
+    margin: auto;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
 
 header nav, ul {
     display: flex;
@@ -44,7 +50,7 @@ header nav, ul, li {
 }
 
 header nav, ul, li, a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,7 +58,7 @@ header nav, ul, li, a {
 /* Seção de produtos */
 .produtos {
     padding: 30px 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.562);
 }
 
 .produtos h2 {
@@ -70,13 +76,13 @@ header nav, ul, li, a {
     background-color: #ffffff;
     padding: 10px;
     width: 700px;
-    height: 300px;
+    height: auto;
     border-radius: 8px;
     
 }
 
 .produto img {
-    width: 70%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
 }
