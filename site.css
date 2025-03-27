@@ -13,7 +13,7 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #333;
+    background-color: #3c17a1;
     color: white;
     padding: 15px 0;
     display: flex;
@@ -21,8 +21,8 @@ header {
     align-items: center;
 }
 
-header .logo h1 {
-    margin-left: 20px;
+header .barradecima h1 {
+    margin-left: 2px;
 }
 
 header nav ul {
@@ -60,11 +60,11 @@ header nav ul li a {
 .produto {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px #3c17a1;
 }
 
 .produto img {
@@ -109,3 +109,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.logo{
+    margin-right: 100px;
+}
+.menu{
+    background-color: #3c17a1;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1 {
+    margin-left: 2px;
+}
+.menu nav ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu nav ul li {
+    margin: 0 20px;
+}
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
