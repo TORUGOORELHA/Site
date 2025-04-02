@@ -1,0 +1,155 @@
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: linear-gradient(to bottom, #3a25f1, #7beafe);
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header input{
+    margin: auto;
+    justify-content: center;
+    border: 2px solid #333;
+    border-radius: 10%;
+    outline: none;
+    width: 500px;
+    height: 30px;
+}
+
+header .barradecima h1 {
+    margin-left: 2px;
+}
+header #login img{
+    display:block;
+    margin: auto;
+    float:none;
+    width: 100%;
+    height: auto;
+    max-width: 50px; 
+}
+
+header nav, ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav, ul, li {
+    margin: 0 20px;
+}
+
+header nav, ul, li, a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção de produtos */
+.produtos {
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.produtos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtos-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.produto {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.produto button {
+    display: flex;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.produto button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    background-color: #3a25f1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    margin-right: 100px;
+}
+.menu{
+    background-color: #3c17a1;
+    color: white;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu h1 {
+    margin-left: 2px;
+}
+.menu nav, ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu nav, ul, li {
+    margin: 0 30px;
+}
+.menu nav, li, a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100px;
+}
+
